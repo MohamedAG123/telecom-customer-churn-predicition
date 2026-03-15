@@ -1,19 +1,43 @@
 # telecom-customer-churn-predicition
 Machine learning project predicting telecom customer churn using Python and scikit-learn.
 
-This project builds machine learning models to predict customer churn in a telecom dataset, aswell as identifies the key drivers that increase and reduce customer churn.
+# Telecom Customer Churn Prediction
 
-## Tools used
+This project applies machine learning techniques to predict customer churn in a telecom dataset.
+
+The goal is to identify the key drivers behind customer churn and build predictive models that can help businesses retain customers.
+
+## Dataset
+The dataset contains telecom customer information such as:
+
+- Contract type
+- Monthly charges
+- Services subscribed
+- Customer tenure
+- Payment methods
+
+Target variable: **Churn**
+
+## Tools and Technologies
 - Python
 - Pandas
 - Scikit-learn
 - Jupyter Notebook
 
-## Project steps
-1. Data exploration and preprocessing
-2. Feature analysis
-3. Model training
-4. Model evaluation using precision, recall and confusion matrix
+## Project Workflow
+
+1. Data exploration and preprocessing  
+2. Feature analysis  
+3. Model training  
+4. Model evaluation using precision, recall and confusion matrix  
 
 ## Results
-The best performing model achieved strong recall for churn prediction, helping identify customers at risk of leaving and the drivers that are likely to make them churn/stay.
+
+The models were evaluated using classification metrics including precision, recall and confusion matrix.  
+The best-performing model demonstrated strong capability in identifying customers likely to churn.
+
+## Future Improvements
+
+- Feature engineering
+- Hyperparameter tuning
+- Testing additional machine learning models
